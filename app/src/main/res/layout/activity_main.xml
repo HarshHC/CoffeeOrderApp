@@ -134,24 +134,20 @@
                     />
 
             </LinearLayout>
-
+           <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10sp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#0091ea"
+            android:textColor="#fff"
+            android:onClick="submitOrder"
+            />
         </LinearLayout>
     </ScrollView>
-
-
-
-    <Button
-        android:id="@+id/submitbtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10sp"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:background="#0091ea"
-        android:textColor="#fff"
-        android:onClick="submitOrder"
-        />
 
 </RelativeLayout>
