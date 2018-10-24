@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HC Cafe Order App</string>
+    <string-array name="itemnames">
+        <item>Coffee</item>
+        <item>Cold Coffee</item>
+        <item>Green Tea</item>
+        <item>Black Tea</item>
+    </string-array>
+</resources>
